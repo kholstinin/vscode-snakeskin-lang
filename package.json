@@ -1,0 +1,36 @@
+{
+    "name": "snakeskin-lang",
+    "displayName": "Snakeskin lang",
+    "description": "Syntax highlighting for Snakeskin",
+    "version": "0.1.0",
+    "publisher": "baranovxyz",
+    "repository": "git@github.com:baranovxyz/vscode-snakeskin-lang.git",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "snakeskin",
+                "aliases": [
+                    "Snakeskin",
+                    "snakeskin"
+                ],
+                "extensions": [
+                    ".ss"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "snakeskin",
+                "scopeName": "source.snakeskin",
+                "path": "./syntaxes/snakeskin.tmLanguage.json"
+            }
+        ]
+    }
+}
