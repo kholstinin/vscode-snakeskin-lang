@@ -14,3 +14,7 @@ Users appreciate release notes as you update your extension.
 
 Converted from https://github.com/SnakeskinTpl/atom-snakeskin
 with utility https://github.com/ldez/grammar-to-plist-syntax
+
+### 0.0.2
+
+Added support for .ess files
